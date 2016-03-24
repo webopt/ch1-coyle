@@ -70,6 +70,7 @@ body{
 	padding-left: 0;
 	overflow-x: hidden;
 	background-image: url("../img/bg.png");
+	background-color: #000;
 }
 
 body.locked{
@@ -364,7 +365,9 @@ div.mainContent div.brands{
 	border-right: 1px solid #5c5c5c;
 	border-bottom: 1px solid #5c5c5c;
 	border-left: 1px solid #5c5c5c;
-	background-color: #080808;
+	background-color: #0a0a0a;
+	background-image: url("../img/brand_bg.png");
+	background-repeat: repeat-x;
 	box-sizing: border-box;
 	padding-top: 8px;
 	padding-right: 0;
