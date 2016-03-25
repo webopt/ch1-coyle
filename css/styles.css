@@ -365,9 +365,7 @@ div.mainContent div.brands{
 	border-right: 1px solid #5c5c5c;
 	border-bottom: 1px solid #5c5c5c;
 	border-left: 1px solid #5c5c5c;
-	background-color: #0a0a0a;
-	background-image: url("../img/brand_bg.png");
-	background-repeat: repeat-x;
+	background-color: #080808;
 	box-sizing: border-box;
 	padding-top: 8px;
 	padding-right: 0;
@@ -442,7 +440,7 @@ div.mainContent div.locationsArea{
 div.mainContent div.locationsArea div.rightLocations{
 	height: 112px;
 	width: 668px;
-	background-color: #121212;
+	background-color: #0a0a0a;
 	padding-top: 12px;
 	padding-right: 0;
 	padding-bottom: 0;
@@ -560,7 +558,7 @@ div.modal,
 div.statusModal,
 div.loader{
 	position: fixed;
-	top: -150%;
+	top: -350%;
 	width: 310px;
 	z-index: 1001;
 	border-top: 5px solid #c40a0a;

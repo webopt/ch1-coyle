@@ -27,7 +27,7 @@ $(function(){
 
 		$(".modal").animate({
 			"top": topPlacement
-		}, 1000);
+		}, 500);
 	}
 
 	function closeModal(){
@@ -129,7 +129,6 @@ $(function(){
 
 		$("#okayButton").click(function(){
 			if($(this).attr("rel") === "failure"){
-				// Fade out the modal
 				$(".statusModal").css({
 					"display": "none"
 				});
